@@ -1,5 +1,5 @@
 "use strict";
-const PHONE = "5561992927072";
+const PHONE = "556192927072";
 const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
 const app = document.querySelector("#app");
 let cart = [];
