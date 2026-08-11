@@ -27,7 +27,7 @@ type Hotspot = {
   action: () => void;
 };
 
-const PHONE = "5561999927072";
+const PHONE = "556192927072";
 const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
