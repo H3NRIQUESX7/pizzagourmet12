@@ -394,7 +394,7 @@ function openCheckout() {
             `Pagamento: ${payment}`,
             `Endereço: ${addr}`,
         ].join("\n");
-        window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+        window.open(`https://wa.me/${61992927072}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
     });
     applyStyle(send, styles.darkBtn);
     const back = button("Voltar ao pedido", () => { overlay.remove(); modal.remove(); openCart(); }, { background: "transparent", color: "#2c1409", width: "100%", marginTop: "8px" });
